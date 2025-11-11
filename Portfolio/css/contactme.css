@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #EAF1FF;
+    font-family: "Segoe UI", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    color: #1F3A93;
+}
+
+.form-card {
+    background: #fff;
+    padding: 30px 40px;
+    width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+form>* {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #6FA8FF;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+}
+
+
+
+input:focus,
+select:focus {
+    border-color: #3478F6;
+    box-shadow: 0 0 5px rgba(52, 120, 246, 0.4);
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 49%;
+}
+
+form input[type="submit"] {
+    background: #3478F6;
+    color: white;
+}
+
+form input[type="submit"]:hover {
+    background: #1F3A93;
+}
+
+form input[type="reset"] {
+    background: #dcdcdc;
+    color: #1F3A93;
+}
+
+form input[type="reset"]:hover {
+    background: #c9c9c9;
+}
